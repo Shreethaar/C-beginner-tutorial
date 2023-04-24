@@ -1,0 +1,43 @@
+//to insert new line, you can use the \n character
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout<<"Hello World! \n";
+    cout<<"I am learning C++";
+    return 0;
+}
+
+Output:
+Hello World! 
+I am learning C++
+
+//two \n characters after each other will create a blank line
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout<<"Hello World! \n\n";
+    cout<<"I am learning C++";
+    return 0;
+}
+
+Output:
+Hello World! 
+
+I am learning C++
+
+//"endl" to insert new line
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout<<"Hello World!" <<endl;
+    cout<<"I am learning C++";
+    return 0;
+}
+
+Output:
+Hello World!
+I am learning C++
