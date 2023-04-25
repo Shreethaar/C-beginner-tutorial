@@ -1,0 +1,25 @@
+#include <iostream>
+
+int main() {
+    int myNum = 15;
+    std::cout << myNum << std::endl;  
+    
+    int myNum;
+    myNum = 15;
+    std::cout << myNum << std::endl;
+    
+    int myNum = 15;
+    myNum = 10;
+    std::cout <<myNum <<std::endl;
+    
+    int myNum=5;
+    double myFloatNum = 5.99;
+    charMyLetter = 'S';
+    string myText = "Hello";
+    bool myBoolean = true;
+    
+    
+    
+    
+    return 0;
+}
