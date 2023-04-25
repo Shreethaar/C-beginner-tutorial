@@ -1,0 +1,11 @@
+#include <iostream>
+
+
+int main() {
+    int myAge = 35; 
+    std::cout << "I am " << myAge <<" years old." << std::endl;
+    return 0;
+}
+
+Output:
+I am 35 years old.
